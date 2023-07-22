@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.timer{
+    font-size: 3.5rem;
+    margin: 50px;
+}
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 10px;
+    transition: all .3s ease-in-out;
+}
+button:hover{
+    opacity: .7;;
+}
+#start{
+    background-color: #2ecc71;
+    color: #fff;
+}
+#stop{
+    background-color: #e74c3c;
+    color: #fff;
+}
+#reset{
+    background-color: #95a5a6;
+    color: #fff;
+}
